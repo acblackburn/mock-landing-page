@@ -1,4 +1,9 @@
 // Toggle between showing and hiding mobile navigation menu
 function toggleNavMenu() {
-    break
+    var brand_bg_color = document.getElementsByClassName("header-brand")
+    if (brand_bg_color.style.backgroundColor === "#f1f1f1") {
+        brand_bg_color.style.backgroundColor = "#111"
+    } else {
+        brand_bg_color.style.backgroundColor = "#f1f1f1"
+    }
 }

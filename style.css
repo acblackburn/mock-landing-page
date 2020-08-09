@@ -47,7 +47,8 @@ table {
 	border-spacing: 0;
 }
 
-/* Header */
+/* MY CODE */
+
 * {
     text-decoration: none;
 }
@@ -55,6 +56,8 @@ table {
 body {
     background-color: #f3f3f3;
 }
+
+/* HEADER */
 
 .header-bg-img {
     width: 100%;
@@ -76,7 +79,7 @@ header .nav-icon {
     padding: 15px 20px;
 }
 
-header .nav-icon .bar {
+.nav-icon .bar {
     width: 35px;
     height: 5px;
     background-color: #f1f1f1;
