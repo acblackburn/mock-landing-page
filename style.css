@@ -60,6 +60,8 @@ body {
     width: 100%;
     height: 100vh;
     background-image: url("images/mtb_header.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header {
@@ -88,7 +90,7 @@ header .header-brand {
     font-weight: 700;
     display: inline-block;
     vertical-align: middle;
-    padding-left: calc(50% - 100px);
+    padding-left: calc(50% - 170px);
 }
 
 header nav ul {
