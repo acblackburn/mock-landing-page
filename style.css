@@ -114,13 +114,19 @@ header nav ul {
 .mobileNavMenu {
     background-color: #f1f1f1;
     height: calc(100vh - 98px);
+    display: none;
 }
 
-.mobileNavMenu a {
+.mobileNavMenu ul {
+    padding-top: calc(50% - 70px);
+}
+
+.mobileNavMenu ul li a {
     color: #111;
     display: block;
-    padding: 24px 16px;
+    padding: 34px 16px;
     text-align: center;
     font-family: 'Recursive', sans-serif;
-
+    font-size: 18px;
+    font-weight: 500;
 }
