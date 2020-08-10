@@ -59,9 +59,19 @@ body {
 
 /* HEADER */
 
+.top-banner {
+    font-family: 'Recursive', sans-serif;
+    background-color: #111;
+    color: #f1f1f1;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 28px;
+}
+
 .header-bg-img {
     width: 100%;
-    height: 100vh;
+    height: calc(100vh - 28px);
     background-image: url("images/mtb_header.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -74,8 +84,8 @@ header {
 
 header .nav-icon {
     height: 40px;
-    display: inline-block;
-    vertical-align: middle;
+    display: block;
+    float: left;
     padding: 15px 20px;
 }
 
@@ -88,12 +98,13 @@ header .nav-icon {
 
 header .header-brand {
     font-family: 'Recursive', sans-serif;
-    font-size: 24px;
+    font-size: 22px;
     color: #f1f1f1;
     font-weight: 700;
-    display: inline-block;
-    vertical-align: middle;
-    padding-left: calc(50% - 155px);
+    display: block;
+    float: right;
+    margin-right: calc(50% - 95px);
+    padding: 24px 0;
 }
 
 header nav ul {
