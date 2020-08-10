@@ -60,7 +60,7 @@ body {
 /* HEADER */
 
 .top-banner {
-    font-family: 'Recursive', sans-serif;
+    font-family: 'Antic Slab', serif;
     background-color: #111;
     color: #f1f1f1;
     display: block;
@@ -109,4 +109,18 @@ header .header-brand {
 
 header nav ul {
     display: block;
+}
+
+.mobileNavMenu {
+    background-color: #f1f1f1;
+    height: calc(100vh - 98px);
+}
+
+.mobileNavMenu a {
+    color: #111;
+    display: block;
+    padding: 24px 16px;
+    text-align: center;
+    font-family: 'Recursive', sans-serif;
+
 }
