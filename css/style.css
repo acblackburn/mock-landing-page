@@ -82,6 +82,10 @@ header {
     height: 70px;
 }
 
+.topnav {
+    background-color: #f1f1f1;
+}
+
 header .nav-icon {
     height: 40px;
     display: block;
