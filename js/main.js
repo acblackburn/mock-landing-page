@@ -4,5 +4,5 @@ let toggleNavStatus = false;
 let toggleNav = function() {
   let getHeader = document.querySelector("header");
   let getBrand = document.querySelector(".header-brand");
-
+  
 }
