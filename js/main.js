@@ -10,7 +10,8 @@ let toggleNav = function() {
   if (toggleNavStatus === false) {
     getHeader.style.backgroundColor = "#f1f1f1";
     getBrand.style.color = "#111";
-    getMenu.style.display = "block";
+    getMenu.style.visibility = "visible";
+    getMenu.style.opacity = 1;
 
     numBars = getBars.length;
     for (var i = 0; i < numBars; i++) {
@@ -22,7 +23,8 @@ let toggleNav = function() {
   else if (toggleNavStatus === true) {
     getHeader.style.backgroundColor = null;
     getBrand.style.color = "#f1f1f1";
-    getMenu.style.display = "none";
+    getMenu.style.visibility = "hidden";
+    getMenu.style.opacity = 0;
 
     numBars = getBars.length;
     for (var i = 0; i < numBars; i++) {

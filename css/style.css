@@ -80,6 +80,7 @@ body {
 header {
     width: 100%;
     height: 70px;
+		transition: all 0.3s linear;
 }
 
 header .nav-icon {
@@ -94,6 +95,7 @@ header .nav-icon {
     height: 5px;
     background-color: #f1f1f1;
     margin: 6px 0;
+		transition: all 0.3s linear;
 }
 
 header .header-brand {
@@ -105,6 +107,7 @@ header .header-brand {
     float: right;
     margin-right: calc(50% - 95px);
     padding: 24px 0;
+		transition: all 0.3s linear;
 }
 
 header nav ul {
@@ -112,10 +115,12 @@ header nav ul {
 }
 
 .mobileNavMenu {
-		display: none;
+		visibility: hidden;
+		opacity: 0;
     background-color: #f1f1f1;
 		width: 100%;
     height: 250px;
+		transition: all 0.3s linear;
 }
 
 .mobileNavMenu ul li a {
