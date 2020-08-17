@@ -89,7 +89,7 @@ header .nav-icon {
     padding: 15px 20px;
 }
 
-.nav-icon .bar {
+.bar {
     width: 35px;
     height: 5px;
     background-color: #f1f1f1;
@@ -116,11 +116,6 @@ header nav ul {
     background-color: #f1f1f1;
 		width: 100%;
     height: 250px;
-}
-
-.mobileNavMenu ul {
-	/* display: block; */
-	padding-top: 11px;
 }
 
 .mobileNavMenu ul li a {
