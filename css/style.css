@@ -154,11 +154,12 @@ header nav ul {
 	background-color: inherit;
 	color: #f1f1f1;
 	border: 2px solid #f1f1f1;
+	border-radius: 4px;
 	padding: 10px 15px;
 	margin-left: 15px;
 	margin-top: 10px;
 	font-size: 18px;
-	font-weight: 600;
+	font-weight: 700;
 	font-family: 'Open Sans', sans-serif;
 	box-shadow: 1px 1px 4px #111, 1px 1px 4px #111 inset;
 	text-shadow: 2px 2px 3px #000;
