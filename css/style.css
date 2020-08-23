@@ -53,10 +53,6 @@ table {
     text-decoration: none;
 }
 
-body {
-    background-color: #f3f3f3;
-}
-
 /* HEADER */
 
 .top-banner {
@@ -163,4 +159,13 @@ header nav ul {
 	font-family: 'Open Sans', sans-serif;
 	box-shadow: 1px 1px 4px #111, 1px 1px 4px #111 inset;
 	text-shadow: 0px 0px 5px #000;
+}
+
+/* MAIN */
+
+.index-boxlink-1 {
+	margin: 16px;
+	width: calc(100% - 32px);
+	height: 100px;
+	background-color: #f2f2f2;
 }
