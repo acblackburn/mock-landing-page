@@ -56,9 +56,9 @@ table {
 /* HEADER */
 
 .top-banner {
-    font-family: 'Asap', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     background-color: #111;
     color: #f1f1f1;
     display: block;
@@ -126,7 +126,7 @@ header nav ul {
 		display: block;
 		margin: 0 auto;
 		text-align: center;
-		font-family: 'Asap', sans-serif;
+		font-family: 'Open Sans', sans-serif;
 		font-size: 24px;
 		color: #111;
 		font-weight: 500;
@@ -178,3 +178,5 @@ header nav ul {
 	text-align: center;
 	line-height: 100px;
 }
+
+/* FOOTER */
