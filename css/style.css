@@ -163,8 +163,8 @@ header nav ul {
 
 /* MAIN */
 
-.index-boxlink-1 {
-	margin: 16px;
+.index-boxlink-rectangle {
+	margin: 16px 16px 0;
 	width: calc(100% - 32px);
 	height: 100px;
 	background-color: #f2f2f2;
