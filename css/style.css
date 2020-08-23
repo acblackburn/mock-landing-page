@@ -138,9 +138,28 @@ header nav ul {
 }
 
 .header-text {
-	margin-top: calc(50vh - 86px);
-	margin-left: 5px;
-	font-family: 'Asap', sans-serif;
+	margin-top: calc(50vh - 158px);
+	margin-left: 15px;
+	display: block;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
 	color: #f1f1f1;
-	font-size: 24px;
+	font-size: 34px;
+	line-height: 48px;
+	text-align: left;
+	text-shadow: 2px 2px 8px #111;
+}
+
+.discover-btn {
+	background-color: inherit;
+	color: #f1f1f1;
+	border: 2px solid #f1f1f1;
+	padding: 10px 15px;
+	margin-left: 15px;
+	margin-top: 10px;
+	font-size: 18px;
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+	box-shadow: 1px 1px 4px #111, 1px 1px 4px #111 inset;
+	text-shadow: 2px 2px 3px #000;
 }
