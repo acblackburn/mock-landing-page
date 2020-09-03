@@ -209,7 +209,7 @@ header nav ul {
 /* MAIN */
 
 .index-links div {
-	margin: 16px 16px 0;
+	margin: 20px 0 0 20px;
 	width: calc(100% - 32px);
 	border-radius: 8px;
 	height: 100px;
@@ -226,7 +226,35 @@ header nav ul {
 }
 
 @media only screen and (min-width: 1000px) {
+	.index-links {
+		overflow: hidden;
+	}
 
+	.index-boxlink-rectangle {
+		margin: 16px 16px 0;
+		width: calc(100% - 20px);
+		border-radius: 8px;
+		height: 200px !important;
+		background-color: #f2f2f2;
+	}
+
+	.index-boxlink-square {
+		margin: 16px 16px 0;
+		width: calc(50% - 26px) !important;
+		float: left;
+		border-radius: 8px;
+		height: 200px !important;
+		background-color: #f2f2f2;
+	}
+
+	.index-links div h2 {
+		font-family: 'Open Sans', sans-serif;
+		color: #111;
+		font-size: 22px;
+		font-weight: 500;
+		text-align: center;
+		line-height: 200px;
+	}
 }
 
 /* FOOTER */
@@ -264,4 +292,10 @@ footer ul li a {
 .footer-sm img {
 	width: 40px;
 	padding: 10px;
+}
+
+@media only screen and (min-width: 1000px) {
+	footer {
+		margin-top: 20px;
+	}
 }
