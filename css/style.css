@@ -182,10 +182,13 @@ header nav ul {
 
 /* FOOTER */
 footer {
-	width: calc(100% - 80px);
-	padding: 40px 40px;
+	width: 100%;
 	background-color: #111;
 	margin-top: 16px;
+}
+
+footer ul {
+	padding: 40px 0;
 }
 
 footer ul li {
@@ -196,4 +199,19 @@ footer ul li {
 
 footer ul li a {
 	color: #f1f1f1;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	line-height: 40px;
+}
+
+.footer-sm {
+	display: block;
+	width: fit-content;
+	margin: 0 auto;
+	padding-bottom: 40px
+}
+
+.footer-sm img {
+	width: 40px;
+	padding: 10px;
 }
