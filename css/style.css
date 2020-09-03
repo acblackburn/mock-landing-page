@@ -108,6 +108,10 @@ header .header-brand {
 		transition: all 0.3s linear;
 }
 
+.desktopNavMenu ul {
+	display: none;
+}
+
 header nav ul {
     display: block;
 }
@@ -164,9 +168,37 @@ header nav ul {
 @media only screen and (min-width: 1000px) {
 	header .nav-icon {
 	    display: none;
-		}
+	}
 
-	
+	header .header-brand {
+	    display: block;
+			margin: 16px 0;
+	    float: left;
+			line-height: 38px;
+	    padding: 0 24px 0 40px;
+			border-right: 3px solid #f1f1f1;
+	}
+
+	.desktopNavMenu ul {
+		display: inline-block;
+		margin-left: 40px;
+		padding: 15px 0;
+	}
+
+	.desktopNavMenu li {
+		display: inline-block;
+		float: left;
+		list-style: none;
+		padding: 0 16px;
+	}
+
+	.desktopNavMenu li a {
+		font-family: 'Open Sans', sans-serif;
+		color: #f1f1f1;
+		font-size: 18px;
+		font-weight: 600;
+		line-height: 40px;
+	}
 }
 
 /* MAIN */
