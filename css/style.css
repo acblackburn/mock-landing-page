@@ -262,11 +262,12 @@ header nav ul {
 		border-radius: 8px;
 		height: 200px !important;
 		background-color: #f2f2f2;
+		transition: all 0.3s linear;
 	}
 
-	/* .index-boxlink-rectangle:hover {
-
-	} */
+	.index-boxlink-rectangle:hover {
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
 
 	.index-boxlink-square {
 		margin: 16px 16px 0;
@@ -275,6 +276,11 @@ header nav ul {
 		border-radius: 8px;
 		height: 200px !important;
 		background-color: #f2f2f2;
+		transition: all 0.3s linear;
+	}
+
+	.index-boxlink-square:hover {
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	}
 
 	.index-links div h2 {
