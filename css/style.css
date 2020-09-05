@@ -163,6 +163,15 @@ header nav ul {
 	font-family: 'Open Sans', sans-serif;
 	box-shadow: 1px 1px 4px #111, 1px 1px 4px #111 inset;
 	text-shadow: 0px 0px 5px #000;
+	transition: all 0.3s linear;
+
+}
+
+.discover-btn:hover {
+	background-color: #f1f1f1;
+	color: #111;
+	box-shadow: 1px 1px 4px #111;
+	text-shadow: none;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -180,14 +189,13 @@ header nav ul {
 			margin: 16px 0;
 	    float: left;
 			line-height: 38px;
-	    padding: 0 40px 0 20px;
+	    padding: 0 40px 0 60px;
 			border-right: 3px solid #f1f1f1;
 	}
 
 	.desktopNavMenu ul {
 		display: inline-block;
 		margin-left: 40px;
-		padding: 15px 0;
 	}
 
 	.desktopNavMenu li {
@@ -195,6 +203,7 @@ header nav ul {
 		float: left;
 		list-style: none;
 		padding: 0 16px;
+		transition: all 0.3s linear;
 	}
 
 	.desktopNavMenu li a {
@@ -202,8 +211,25 @@ header nav ul {
 		color: #f1f1f1;
 		font-size: 18px;
 		font-weight: 600;
-		line-height: 40px;
+		line-height: 70px;
+		transition: all 0.3s linear;
 	}
+
+	header:hover {
+		background-color: #f1f1f1;
+	}
+
+	header:hover .header-brand {
+		color: #111;
+		border-right: 3px solid #111;
+	}
+
+	header:hover .desktopNavMenu li a {
+		color: #111;
+	}
+
+
+
 }
 
 /* MAIN */
