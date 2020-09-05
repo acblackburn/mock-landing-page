@@ -264,6 +264,10 @@ header nav ul {
 		background-color: #f2f2f2;
 	}
 
+	/* .index-boxlink-rectangle:hover {
+
+	} */
+
 	.index-boxlink-square {
 		margin: 16px 16px 0;
 		width: calc(50% - 26px) !important;
