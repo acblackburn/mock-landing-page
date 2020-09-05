@@ -57,7 +57,7 @@ html {
   scroll-behavior: smooth;
  }
 
-/* HEADER */
+/* HEADER (INDEX) */
 
 .top-banner {
     font-family: 'Open Sans', sans-serif;
@@ -232,7 +232,9 @@ header nav ul {
 	}
 }
 
-/* MAIN */
+/* HEADER (CONTACT) */
+
+/* MAIN (INDEX) */
 
 #index-links {
 	overflow: visible;
