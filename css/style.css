@@ -234,7 +234,7 @@ header nav ul {
 
 /* HEADER (CONTACT) */
 
-.contact-header-bg {
+.solid-header-bg {
 	width: 100%;
 	height: calc(100vh - 28px);
 	background-color: #111;
