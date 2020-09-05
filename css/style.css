@@ -234,6 +234,10 @@ header nav ul {
 
 /* MAIN */
 
+.index-links {
+	overflow: visible;
+}
+
 .index-links div {
 	margin: 20px 0 0 20px;
 	width: calc(100% - 32px);
@@ -252,8 +256,9 @@ header nav ul {
 }
 
 @media only screen and (min-width: 1000px) {
+
 	.index-links {
-		overflow: hidden;
+		height: 648px;
 	}
 
 	.index-boxlink-rectangle {
