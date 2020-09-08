@@ -53,6 +53,10 @@ table {
     text-decoration: none;
 }
 
+a:hover {
+	text-decoration: none;
+}
+
 html {
   scroll-behavior: smooth;
  }
@@ -339,7 +343,7 @@ footer ul li a {
 }
 
 .footer-sm img {
-	width: 40px;
+	width: 60px;
 	padding: 10px;
 }
 
