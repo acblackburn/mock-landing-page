@@ -244,6 +244,25 @@ header nav ul {
 	background-color: #111;
 }
 
+.title-text {
+	font-family: 'Recursive', sans-serif;
+	font-weight: 600;
+	color: #f1f1f1;
+	font-size: 42px;
+	line-height: 48px;
+	padding-top: calc(50vh - 140px);
+	text-align: center;
+}
+
+.title-info {
+	font-family: 'Open Sans', sans-serif;
+	color: #f1f1f1;
+	text-align: center;
+	padding: 5px 20px;
+	font-size: 14px;
+	line-height: 24px;
+}
+
 /* MAIN (INDEX) */
 
 #index-links {
@@ -313,7 +332,16 @@ header nav ul {
 /* MAIN (CONTACT) */
 
 .contact-form {
-	margin: 20px 20px;
+	margin: 30px 20px;
+}
+
+.contact-form label, textarea, input {
+	color: #111;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.contact-form label {
+	margin-bottom: 5px;
 }
 
 /* FOOTER */
