@@ -263,6 +263,14 @@ header nav ul {
 	line-height: 24px;
 }
 
+@media only screen and (min-width: 1000px) {
+
+	.title-info {
+		padding: 5px 220px;
+	}
+
+}
+
 /* MAIN (INDEX) */
 
 #index-links {
