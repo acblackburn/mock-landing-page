@@ -75,6 +75,10 @@ html {
     line-height: 28px;
 }
 
+.top-banner:hover {
+	color: #a9a9a9;
+}
+
 .header-bg-img {
     width: 100%;
     height: calc(100vh - 28px);
@@ -412,6 +416,10 @@ footer ul li a {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
 	line-height: 40px;
+}
+
+footer ul li a:hover {
+	color: #a9a9a9;
 }
 
 .footer-sm {
