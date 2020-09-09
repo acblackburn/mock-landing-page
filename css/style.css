@@ -395,13 +395,35 @@ header nav ul {
 
 /* MAIN (ABOUT + PRODUCTS) */
 
-
+.about-title-text {
+	font-family: 'Recursive', sans-serif;
+	font-weight: 600;
+	color: #f1f1f1;
+	font-size: 42px;
+	line-height: 48px;
+	padding-top: calc(50vh - 122px);
+	padding-bottom: calc(50vh - 24px);
+	text-align: center;
+}
 
 .coming-soon {
-	color: #f1f1f1;
+	color: #111;
 	font-family: 'Recursive', sans-serif;
-	font-size: 250px;
-	line-height: 200px;
+	font-size: 70px;
+	font-size: 26vw;
+	line-height: 70%;
+	margin: 100px 0;
+}
+
+@media only screen and (min-width: 1000px) {
+
+	.coming-soon {
+		font-size: 250px;
+		line-height: 174px;
+		margin-top: 0;
+		margin-bottom: -20px;
+	}
+
 }
 
 /* FOOTER */
