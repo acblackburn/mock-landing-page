@@ -393,6 +393,17 @@ header nav ul {
 
 }
 
+/* MAIN (ABOUT + PRODUCTS) */
+
+
+
+.coming-soon {
+	color: #f1f1f1;
+	font-family: 'Recursive', sans-serif;
+	font-size: 250px;
+	line-height: 200px;
+}
+
 /* FOOTER */
 
 footer {
